@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Heebo:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+.header{
+    width: 100%;
+    height: 65px;
+    border: 1px solid #26292D;
+    background-color: #171718;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header .freelancerPort{
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700; 
+}
+.header .freelancerPort span{
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400; 
+}
+.header .options{
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts{
+    margin-top: 70px;
+    color: #5C62EC;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700; 
+}
+.location{
+    margin-top: 40px;
+    color: #171718;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700; 
+}
+.located{
+    margin-top: 20px;
+    color: #171718;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400; 
+}
+.apps{
+    margin-top: 40px;
+    color: #171718;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700; 
+}
+.phone-num{
+    margin-top: 20px;
+    color: #171718;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400; 
+}
+.email{
+    margin-top: 40px;
+    color: #171718;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700; 
+}
+.e-address{
+    margin-top: 20px;
+    color: #5C62EC;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400; 
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    flex-shrink: 0; 
+    background: #171718;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.endless{
+    color: #FFF;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400; 
+    margin-top: 31px;
+}
